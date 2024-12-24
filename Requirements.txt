@@ -1,6 +1,0 @@
-selenium
-pytest
-pytest-xdist
-pytest-html
-pytest-dependency
-pytest-xlrd

@@ -13,4 +13,4 @@ def launching_driver():
     driver.maximize_window()
     time.sleep(2)
     yield driver
-    # driver.close()
+    driver.close()

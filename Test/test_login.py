@@ -15,7 +15,7 @@ def test_login(launching_driver):
     d.password()
     sleep(1)
     d.btn_login()
-    sleep(2)
+    sleep(5)
     d.clk_new_btn()
     sleep(2)
 
@@ -24,7 +24,7 @@ def test_login(launching_driver):
     s.enter_mbl_num()
     sleep(1)
     s.clk_fetch_details()
-    sleep(10)
+    sleep(5)
     s.clk_ok_btn()
 
     dm = Direct_Mareketing_details(launching_driver)
@@ -34,14 +34,3 @@ def test_login(launching_driver):
     dm.enter_ca_ref_id()
     time.sleep(5)
     dm.clk_continue_btn()
-
-
-
-
-
-
-
-
-
-
-
